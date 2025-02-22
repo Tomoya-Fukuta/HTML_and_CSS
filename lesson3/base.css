@@ -38,3 +38,21 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.child {
+  width: 50%;
+  height: auto;
+  margin: 5px;
+}

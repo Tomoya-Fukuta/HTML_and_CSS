@@ -38,3 +38,35 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.parent {
+  display: flex;
+  position: relative;
+  width: 50%;
+  height: 80%;
+  margin-top: 1%;
+  margin-left: 25%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.child-blue {
+  position: absolute;
+  width: 33%;
+  height: 20%;
+  margin-top: 20%;
+  background-color: blue;
+}
+
+.child-red {
+  position: absolute;
+  width: 33%;
+  height: 20%;
+  margin-left: 50%;
+  background-color: red;
+}
